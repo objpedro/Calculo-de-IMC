@@ -1,0 +1,92 @@
+* {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+#cabecalho{
+    background-image: url("https://centrodeobesidadeediabetes.org.br/wp-content/uploads/2017/09/banner-tratamento-obesidade-1600x380.jpg");
+    height: 150px;
+    padding: 90px 0 0 10px;
+}
+
+#cabecalho h1{
+    color: white;
+    display: inline;
+    font-size: 50px;
+}
+
+#conteudo{
+    margin: 10px 70px;
+}
+
+#conteudo p{
+    margin-top: 30px ;
+}
+
+
+.calculo {
+    text-align: center;
+    color: #007c8a;
+}
+
+#background-calculadora{
+    background-color: rgb(0, 0, 0, 0.05);
+    padding: 10px;
+    height: 370px;
+}
+
+#calculadora{
+    text-align: center;
+    width: 350px;
+    height: 230px;
+    margin: auto;
+    padding: 20px;
+}
+
+#calculadora h2{
+margin-bottom: 30px;
+}
+
+#calculadora div{
+    width: 300px;
+    text-align: left;
+    color: #00b4bd;
+}
+
+#calculadora label{
+    color: #007c8a;
+    display: block;
+    cursor: pointer;
+    margin: 5px 0 5px 0;
+}
+
+#calculadora input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #007c8a;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#botao{
+    text-align: left;
+    display: flex;
+}
+
+#botao input{
+    background-color: #00b4bd;
+    color: white;
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+#resultado {
+    font-size: 16px;
+}
